@@ -1,0 +1,1 @@
+function e(e){return`${e.genesisOwnerAccountId}.${e.folderId}`}export{e as t};
