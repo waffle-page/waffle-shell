@@ -1,0 +1,1 @@
+var e=/^[0-9a-f]{64}$/u;function t(t){return typeof t==`string`&&e.test(t)?t:null}export{t};

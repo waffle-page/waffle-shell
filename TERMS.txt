@@ -1,0 +1,222 @@
+# Terms of Service
+
+**Status: draft pending legal review; effective on publication. Dated
+2026-10-02.**
+
+These terms describe what Waffle offers at launch, what it does not promise,
+and what is expected of you. A few launch features are decided and not built
+yet; the Privacy Policy's section "What is switched on today" lists each one and
+what happens until it is built. Where terms would normally carry standard
+clauses that have not been written yet — a liability cap, a way to resolve
+disputes, grounds for suspension, prices — this draft says so instead of
+inventing them.
+
+---
+
+## 1. Who provides Waffle
+
+Waffle is provided by **Waffle Corp**, a Delaware corporation, of 2093
+Philadelphia Pike #2073, Claymont, DE 19703, United States. Waffle Corp is also
+the data controller under the Privacy Policy.
+
+**Contact: [contact@waffle.page](mailto:contact@waffle.page)** — one mailbox for
+support, for these terms, and for security reports.
+
+**Where to read these terms.** The same text ships with the app as TERMS.txt
+and is linked from Settings → About, from the sign-in screen, and from the
+website at waffle.page/terms.
+
+---
+
+## 2. What the service is
+
+Waffle is a **local-first library** for your notes, links and files, kept as
+ordinary files in an ordinary folder on your own device.
+
+- **The app** — for Mac, iPhone and Android, the browser extension, and the web
+  app at app.waffle.page. It works with no account and no server, and is free.
+- **An optional account** — sign-in by email. Signing in uploads nothing.
+- **Personal Sync** — your library, end-to-end encrypted, on all your devices.
+  Included with every account, with 1 GB of storage free; Plus and Pro add
+  storage (section 5). Personal Sync is not switched on yet.
+- **Shared folders** — a folder you share with people you invite, end-to-end
+  encrypted for its members. Shared folders are not switched on yet.
+
+**No uptime commitment.** There is no service level.
+
+---
+
+## 3. Your content is yours
+
+- **Your library is a normal folder.** Everything Waffle writes stays readable
+  by other programs, and you do not need Waffle to read your own data.
+- **Waffle claims no ownership of your content and no licence to it.** Our
+  servers hold what you sync or share only to store it and carry it between your
+  devices and the people you share with, and they hold it encrypted.
+- **Deleting goes to Trash first.** Deleted files move to a Trash folder inside
+  your library, where you can restore them. Trash empties itself after 30 days,
+  and "Delete forever" removes something sooner. Nothing else in the app deletes
+  your files for good.
+- **Keep your own backups.** Your library is an ordinary folder, so ordinary
+  backup tools work on it. Sync is not a backup: deleting on one device deletes
+  on all of them.
+
+---
+
+## 4. Accounts
+
+- An account is **optional and always will be**. Using Waffle without one is a
+  full way to use it, not a trial.
+- You sign in with a **link we email you**. There is no password.
+- **Signing in is not permission to upload.** Sync and sharing are separate
+  steps, each with its own consent.
+- You are responsible for the email account you sign in with: access to it is
+  access to your Waffle account, including the ability to ask for its deletion
+  (section 9).
+- **Your encryption keys are separate from your account.** Getting your email
+  back does not by itself recover your encryption keys. If you lose every device
+  and your recovery code, your encrypted data cannot be recovered — including by
+  us.
+
+---
+
+## 5. Fees
+
+The app is free, on one device or many, with no account.
+
+**Personal Sync comes with every account.** The plans, in US dollars:
+
+| Plan | Price | Storage for your account |
+| --- | --- | --- |
+| Free | Free | 1 GB |
+| Plus | $4.99 a month or $39.99 a year | 10 GB |
+| Pro | $9.99 a month or $95.99 a year | 100 GB |
+
+Nothing can be bought yet. The billing period, renewal, cancellation and
+refund terms are stated here before anything can be. Payment is taken by
+Stripe on the web and in the Mac app, and by Apple in the iPhone and iPad app;
+a purchase through Apple or Google is also governed by their terms. Local
+taxes may be added where they apply.
+
+**Storage.** Your account can store up to its plan's storage with Sync,
+counting every library and every file in it, videos included. The encrypted
+bytes of a replaced or deleted file version are kept **30 days** after it is
+replaced or deleted, then removed. While they are kept they do not count
+towards your storage, unless together they come to more than your plan's
+storage; then only the part beyond it counts. For a
+deleted file the 30 days start when the deletion reaches our servers, not when
+it leaves your Trash; for the losing version of a file two devices changed at
+the same time, when one of your devices next syncs. A replaced or deleted
+version waits until every device on your account has synced since (a full
+account still counts), or until you remove a device that no longer does. A file deleted together with its folder is deleted for
+good 30 days after the folder (on a correct clock), by the device that deleted
+the folder the next time it syncs, and its 30 days start then; if that device
+never syncs again, its bytes stay, and count, until you delete your account.
+Small preview images do not count.
+
+**When you reach the limit**, editing on your devices continues, new uploads
+pause, everything already stored stays downloadable, and nothing on your
+devices is deleted. You can still delete photos, videos and other files to
+make room: a deletion frees its space as soon as it reaches our servers (files
+deleted together with their folder free theirs only when they are deleted for
+good, about 30 days after the folder; a note's history is kept and
+still counts; and while one of your devices has not synced for a long time,
+earlier versions it may still need keep counting until it syncs or you
+remove it from your account). **When a paid plan ends**, new uploads pause in the same
+way until you renew; nothing is deleted.
+
+If you use your own key with an outside AI service, **you pay that service
+directly**, and Waffle is not part of that arrangement.
+
+---
+
+## 6. Acceptable use
+
+- **Do not use the browser extension or Waffle's saving features to crawl or
+  scrape sites in bulk.** Saving pages you are looking at is the intended use.
+- **Pages you save are your private copies.** Waffle never publishes them;
+  republishing someone else's content is your responsibility.
+- **Do not try to get around Waffle's security boundaries** or the access rules
+  of shared folders. If you find a flaw, report it to contact@waffle.page.
+- **Do not use shared folders to distribute unlawful content.** Waffle cannot
+  read shared content — it holds it encrypted — so it cannot moderate it, and
+  responsibility rests with you.
+- Respect other people's rights in what you save and share.
+
+---
+
+## 7. Software licence and marks
+
+- **All rights are reserved.** No licence is granted for Waffle's own code or
+  documentation. Using the app does not give you a licence to copy, modify or
+  redistribute it.
+- **The AGPL-3.0 licence is the licence Waffle intends to use if its code is
+  published, not one in force.** The LICENSE.txt file that ships with the app
+  carries that text as a statement of intent. No source code is offered, and
+  none is owed, because no licence that would require it has been granted.
+- **The "Waffle" name and marks are not licensed to you.**
+- Third-party components in the app are credited in THIRD-PARTY-NOTICES.txt,
+  which ships with it.
+
+---
+
+## 8. No warranty
+
+The software is provided **as is, without warranty of any kind, and without any
+implied warranty of merchantability or fitness for a particular purpose.**
+
+About the online parts: encryption keeps what you sync and share unreadable to
+our storage providers acting alone; it cannot guarantee that a server always
+shows your devices every latest change. Support is one mailbox. **Keep your own
+backups** (section 3).
+
+**A limitation of liability has not been written yet.** The disclaimer above
+excludes warranties; it does not cap liability.
+
+---
+
+## 9. Ending, and deleting your account
+
+- **You can stop at any time.** Sign out, or simply stop using the app; your
+  library is a folder you already control.
+- **You can delete your account** in the app, or at waffle.page/delete-account
+  with only your email address. **Deleting your account starts a 7-day hold**:
+  the account is frozen — Sync stops, and signing in offers only "Cancel
+  deletion" — and we email you a link to cancel, a reminder the day before, and
+  a confirmation once it is deleted. After the hold, what Waffle stores for the
+  account is deleted and cannot be restored.
+- **Deleting your account does not delete everything.** What is kept, for how
+  long and why — our 30-day backup, the deleted account's random identifier,
+  the records other members of shared folders keep as their own, and our
+  database provider's own logs and backups — is in the Privacy Policy, section
+  "Deletion". A shared folder you own that others still use must be handed over
+  or erased first.
+- **Files freed from a device.** A file you removed from a device with "Free up
+  space" exists only on our servers until a device downloads it again; deleting
+  your account deletes it.
+- **Ending a paid subscription** does not delete your data, and deleting your
+  account does not cancel a subscription bought through Apple or Google.
+- **Suspension.** No grounds on which Waffle would suspend or end an account
+  have been written yet.
+
+---
+
+## 10. Changes to these terms
+
+When a feature is switched on or changed, these terms and the Privacy Policy
+change in the same release. How changes will be announced, and whether
+continuing to use Waffle means accepting them, is not settled yet.
+
+---
+
+## 11. Governing law and disputes
+
+**These terms are governed by the laws of the State of Delaware, United States,
+without regard to its conflict-of-laws rules, and the state and federal courts
+located in Delaware are the venue for any dispute.**
+
+**This does not take away rights you cannot waive.** If you are a consumer in a
+place whose mandatory consumer-protection rules apply to you regardless of this
+clause — the EU and the United Kingdom, for example — those rules still apply.
+No arbitration, class-action waiver or informal-resolution step is part of these
+terms.

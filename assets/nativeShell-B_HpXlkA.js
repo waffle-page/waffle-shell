@@ -1,0 +1,1 @@
+import{n as e}from"./rolldown-runtime-QTnfLwEv.js";import{t}from"./dist-B2qK2w6D.js";var n=e({iosVaultShell:()=>i,nativeVaultShell:()=>r});function r(){let e=t.isNativePlatform()?t.getPlatform():null;return e===`ios`||e===`android`}function i(){return t.isNativePlatform()&&t.getPlatform()===`ios`}export{n,r,i as t};

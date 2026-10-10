@@ -1,0 +1,1 @@
+var e=class extends Error{refusal;constructor(e,t){super(t),this.name=`SharePlaneError`,this.refusal=e}},t=4096;function n(e){return`${e.genesisOwnerAccountId}.${e.folderId}`}export{e as n,n as r,t};
