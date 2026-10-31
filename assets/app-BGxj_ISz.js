@@ -1,0 +1,1 @@
+import{w as e}from"./index-GAG_jZgZ.js";import"./Library-BW5PV2h_.js";var t;(function(e){e.Nsis=`nsis`,e.Msi=`msi`,e.Deb=`deb`,e.Rpm=`rpm`,e.AppImage=`appimage`,e.App=`app`})(t||={});async function n(){return e(`plugin:app|version`)}export{n as getVersion};
