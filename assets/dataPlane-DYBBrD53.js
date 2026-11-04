@@ -1,0 +1,1 @@
+var e=9437184,t=4096,n=4096,r=16466,i=`client-outdated`,a=class extends Error{reason;constructor(e,t){super(t),this.name=`DataPlaneError`,this.reason=e}};export{e as a,t as i,a as n,r as o,n as r,i as t};

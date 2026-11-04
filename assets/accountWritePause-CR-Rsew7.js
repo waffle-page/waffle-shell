@@ -1,0 +1,1 @@
+var e=`deletion-held`;function t(e){return e===`quota-exceeded`||e===`entitlement-lapsed`}function n(e){return e===`quota-exceeded`||e===`entitlement-lapsed`||e===`deletion-held`}export{n,t as r,e as t};
